@@ -21,3 +21,15 @@ Steps for running the python rdf converter:
 6. Edit or remove the SPARQL queries.
    Current file includes SPARQL queries which run immediately when the rdf file is created, edit or remove thise for your use case.
 
+Steps for running the date converter:
+1. Install Libraries:
+ pandas for reading CSV files.
+ rdflib for RDF manipulation and serialization.
+ datetime for manipulating date fields.
+
+ 2. Edit the fields for the csv files.
+  Currently, the file is set up to convert a field from BookData.csv, included in this git depository.
+  Use of the converter for other csv files requires changing this.
+
+3. Define the columns to be converted.
+   Define columns in the file in the csv that you want to convert from MM/DD/YYYY format to YYYY-MM-DD format.
