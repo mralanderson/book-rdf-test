@@ -1,0 +1,69 @@
+@prefix ont: <http://www.semanticweb.org/alexanderanderson/ontologies/bookOntology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ont:Book_0 a ont:Novel ;
+    ont:novelAuthor "Lee, Harper" ;
+    ont:novelPublicationDate "1960-07-11"^^xsd:date ;
+    ont:novelPublisher "J.B. Lippincott & Co." ;
+    ont:novelTitle "To Kill a Mockingbird" .
+
+ont:Book_1 a ont:Novel ;
+    ont:novelAuthor "Orwell, George" ;
+    ont:novelPublicationDate "1949-06-08"^^xsd:date ;
+    ont:novelPublisher "Secker & Warburg" ;
+    ont:novelTitle "1984" .
+
+ont:Book_10 a ont:Novel ;
+    ont:novelAuthor "King, Stephen" ;
+    ont:novelPublicationDate "1977-01-28"^^xsd:date ;
+    ont:novelPublisher "Doubleday" ;
+    ont:novelTitle "Shining, The" .
+
+ont:Book_2 a ont:Novel ;
+    ont:novelAuthor "NaN"^^xsd:double ;
+    ont:novelPublicationDate "1925-04-10"^^xsd:date ;
+    ont:novelPublisher "Charles Scribner's Sons" ;
+    ont:novelTitle "Great Gatsby, The" .
+
+ont:Book_3 a ont:Novel ;
+    ont:novelAuthor "Salinger, J.D." ;
+    ont:novelPublicationDate "1951-07-16"^^xsd:date ;
+    ont:novelPublisher "Little, Brown and Company" ;
+    ont:novelTitle "Catcher in the Rye, The " .
+
+ont:Book_4 a ont:Novel ;
+    ont:novelAuthor "Rowling, J.K." ;
+    ont:novelPublicationDate "2997-06-26"^^xsd:date ;
+    ont:novelPublisher "Bloomsbury" ;
+    ont:novelTitle "Harry Potter and the Philosopher's Stone" .
+
+ont:Book_5 a ont:Novel ;
+    ont:novelAuthor "Jane Austen" ;
+    ont:novelPublicationDate "1813-01-28"^^xsd:date ;
+    ont:novelPublisher "T. Egerton, Whitehall" ;
+    ont:novelTitle "Pride and Prejudice" .
+
+ont:Book_6 a ont:Novel ;
+    ont:novelAuthor "Tolkien, J.R.R." ;
+    ont:novelPublicationDate "1937-90-21"^^xsd:date ;
+    ont:novelPublisher "George Allen & Unwin" ;
+    ont:novelTitle "Hobbit, The" .
+
+ont:Book_7 a ont:Novel ;
+    ont:novelAuthor "Herman Melville" ;
+    ont:novelPublicationDate "1851-10-18"^^xsd:date ;
+    ont:novelPublisher "Richard Bentley" ;
+    ont:novelTitle "Moby-Dick" .
+
+ont:Book_8 a ont:Novel ;
+    ont:novelAuthor "Brown, Dan" ;
+    ont:novelPublicationDate "nan"^^xsd:date ;
+    ont:novelPublisher "Doubleday" ;
+    ont:novelTitle "Da Vinci Code, The" .
+
+ont:Book_9 a ont:Novel ;
+    ont:novelAuthor "Rowling, J.K." ;
+    ont:novelPublicationDate "1999-07-08"^^xsd:date ;
+    ont:novelPublisher "Bloomsbury" ;
+    ont:novelTitle "Harry Potter and the Prisoner of Azkaban" .
+
